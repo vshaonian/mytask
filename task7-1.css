@@ -1,0 +1,325 @@
+.banner{
+	height: 600px;
+	width: 1920px;
+	overflow: hidden;
+	position: relative;
+}
+/*轮播图*/
+
+
+#wrap {
+    position:relative;
+    
+    width:100%;
+    overflow:hidden;
+}
+
+#slider {
+    width:300%;
+    -webkit-animation:slide1 8s ease-out infinite;
+}
+
+#slider li {
+    float:left;
+    width:33.3%;
+    
+}
+
+
+/*创建三种动画策略*/
+@-webkit-keyframes slide1 {
+    0% { margin-left:0;}
+    23% { margin-left:0;}
+    33% { margin-left:-100%;}
+    56% { margin-left:-100%;}
+    66% { margin-left:-200%;}
+    90% { margin-left:-200%;}
+    100% {margin-left:0;}
+}
+
+@-webkit-keyframes slide2 {
+    0% { margin-left:-100%;}
+    23% { margin-left:-100%;}
+    33% { margin-left:-200%;}
+    56% { margin-left:-200%;}
+    66% { margin-left:0;}
+    90% { margin-left:0;}
+    100% {margin-left:-100%;}
+}
+
+@-webkit-keyframes slide3 {
+    0% { margin-left:-200%;}
+    23% { margin-left:-200%;}
+    33% { margin-left:0;}
+    56% { margin-left:0;}
+    66% { margin-left:-100%;}
+    90% { margin-left:-100%;}
+    100% {margin-left:-200%;}
+}
+
+
+/*修改动画名称*/
+#l01:checked ~ #wrap #slider {
+    -webkit-animation-name:slide1;
+}
+
+#l02:checked ~ #wrap #slider {
+    -webkit-animation-name:slide2;
+}
+
+#l03:checked ~ #wrap #slider {
+    -webkit-animation-name:slide3;
+}
+
+
+/*短暂地取消动画名称，模拟重启动画*/
+#l01:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:0;
+}
+
+#l02:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-600px;
+}
+
+#l03:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-1200px;
+}
+
+
+#opts {
+    width: 70px;
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+
+}
+
+#opts label {
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-right: 4px;
+    border: 1px #999999 solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#opts label:hover {
+    background:#405871;
+}
+
+/* 隐藏Input按钮*/
+#l01, #l02, #l03 {
+    display:none;
+}
+
+/*End 轮播图*/
+.index{
+	width: 1198px;
+	margin: 163px auto;
+}
+.index-top{
+	height: 288px;
+}
+.index-top-left{
+	width: 936px;
+	height: 264px;
+	margin-bottom: 24px;
+	border-right: 1px dashed #dedede;
+	float: left;
+}
+.index-top-left-li{
+	width: 224px;
+	margin-right: 80px;
+	display: inline;
+	float: left;
+}
+.index-top-left-icon1{
+	display: block;
+	height: 62px;
+	width: 43px;
+	margin: 0 90px;
+	float: left;
+	background: url(task7/index-top-left.png);
+}
+.index-top-left-icon2{
+	display: block;
+	height: 62px;
+	width: 60px;
+	box-sizing: border-box;
+	margin: 0 90px;
+	margin-top: 14px;
+	float: left;
+	background: url(task7/index-top-left.png);
+	background-position: -44px 0;
+}
+.index-top-left-icon3{
+	display: block;
+	height: 62px;
+	width: 52px;
+	box-sizing: border-box;
+	margin: 0 90px;
+	margin-top: 7px;
+	float: left;
+	background: url(task7/index-top-left.png);
+	background-position: -105px 0;
+}
+.index-top-left-txt{
+	clear: both;
+}
+.index-top-left-content{
+	width: 224px;
+	margin-right: 80px;
+	float: left;
+	text-align: center;
+}
+.index-top-left-txt-title{
+	margin-top: 33px;
+	margin-bottom: 31px;
+	font-size: 18px;
+	font-weight: 600
+}
+.index-top-txt-txt{
+	font-size: 16px;
+	color: #a1a1a1;
+}
+.index-top-right{
+	margin:65px 0 0 55px;
+	float: left;
+}
+.index-head-right-li{
+	margin-bottom: 33px;
+	font-size: 18px;
+}
+.index-head-right-num{
+	color: #26a26f;
+}
+.index-head-right-txt{
+	color: #999;
+}
+.index-middle{
+	height: 1200px;
+	width: 1198px;
+}
+.index-middle-title{
+	height: 20px;
+	font-size: 18px;
+	font-weight: 600;
+	clear: both;
+	text-align: center;
+	margin: 80px auto;
+}
+.index-middle-content{
+	height: 72px;
+	width: 1198px;
+	margin-bottom: 96px;
+	vertical-align: center;
+}
+.index-middle-num{
+	width: 70px;
+	height: 70px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 35px;
+	border:1px solid #999;
+	color: #29b078;
+	background-color: #fff;
+	float: left;
+}
+.index-middle-txt{
+	height: 57px;
+	width: 155px;
+	margin-left: 17px;
+	padding-top: 15px;
+	font-size: 14px;
+	color: #999;
+	float: left;
+}
+.index-middle-img{
+	width: 32px;
+	height: 30px;
+	margin:21px 20px;
+	float: left;
+}
+.classmate{
+	height: 372px;
+	width: 1198px;
+}
+.classmate-1{
+	height:300px; 
+	width:200px;
+	padding: 35px;
+	border:1px solid #eeeded;
+	border-radius: 5px;
+	float: left;
+	background-color: #fff;
+}
+.classmate-2{
+	height:300px; 
+	width:200px;
+	padding: 35px;
+	margin-left: 36px;
+	border:1px solid #eeeded;
+	border-radius: 5px;
+	float: left;
+	background-color: #fff;
+}
+.classmate-icon{
+	height: 108px;
+	width: 108px;
+	border-radius: 54px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.classmate-name{
+	margin: 30px 0;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 600
+}
+.classmate-content{
+	line-height: 150%;
+	font-size: 16px;
+	color: #999;
+}
+.enterprise{
+	width: 1200px;
+	height: 176px;
+	background-color: #fff;	
+}
+.enterprise-icon{
+	float: left;
+}
+.foot{
+	width: 1920px;
+	height: 134px;
+	background-color: #fff;
+}
+.foot-content{
+	width: 1198px;
+	height: 90px;
+	padding: 22px 0;
+	margin: 0 auto;
+}
+.foot-content-title{
+	margin-bottom: 22px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+.foot-content ul{
+	padding-left: 20px;
+}
+.foot-content li{
+	list-style: disc;
+	font-size: 14px;
+	color: #999;
+	float: left;
+	margin-right: 63px;
+	margin-bottom: 17px;
+}

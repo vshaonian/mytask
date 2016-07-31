@@ -1,0 +1,90 @@
+.banner{
+	width: 1919px;
+	height: 248px;
+	border-left: 1px solid #27b5fc;
+	background:url(task7/banner2.png);
+}
+.index{
+	width: 1200px;
+	height: 1413px;
+	margin: 0 auto;
+}
+.index p a{
+	display: inline-block;
+	margin: 30px 0;
+	font-size: 16px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.left-a{
+	color: #000;
+}
+.right-a{
+	color: #29b078;
+}
+.index-left{
+	width: 304px;
+	height: 708px;
+	border: 1px solid #eeeded;
+	border-radius: 5px;
+	background-color: #fff;
+	float: left;
+}
+.index-left-top{
+	height: 62px;
+	border-bottom: 1px solid #eeeded;
+	text-align: center;
+	line-height: 62px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.index-left-down{
+	padding-left: 116px;
+	padding-top: 12px;
+	font-size: 14px;
+}
+.index-left-down li{
+	margin-top: 36px;
+}
+.index-left a{
+	text-decoration: none;
+	color: #333;
+}
+.circle{
+	display: inline-block;
+	height: 8px;
+	width: 8px;
+	border-radius: 4px;
+	border:1px solid #ff650e;
+}
+.tudou a{
+	color: #ff650e;
+}
+.tudou .circle{
+	background-color: #f9a372;
+}
+.index-right{
+	height: 1100px;
+	width: 870px;
+	margin-left: 22px;
+	border: 1px solid #eeeded;
+	border-radius: 5px;
+	background-color: #fff;
+	float: left;
+	font-size: 14px;
+	color: #999;
+}
+.index-right img{
+	float: left;
+}
+.index-right p{
+	margin: 19px 62px;
+	text-indent: 2em;
+	line-height: 200%;
+}
+.index-right-top{
+	height: 156px;
+	width: 870px;
+	padding-top: 10px;
+	border-bottom: 1px solid #999;
+}

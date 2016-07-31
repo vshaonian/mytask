@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 10px;
+}
+.head{
+	padding: 2rem;
+	background-color: #29bde0;
+	font-size: 3.4rem;
+	color: #fff;
+	text-align: center;
+}
+.head-left{
+	float: left;
+	margin-top: 0.5rem;
+}
+.head-right{
+	float: right;
+	margin-top: 0.5rem;
+}
+.blue{
+	background-color: #29bde0;
+}
+img{
+	max-width: 100%;
+}
+.rel{
+	width: 348px;
+	height: 197px;
+	font-size: 48px;
+	background: url(task6/rel.png);
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.rel-inf{
+	padding-top: 135px;
+}
+.rel-txt{
+	width: 48.5rem;
+	font-size: 3.3rem;
+	color: #ffc865;
+	margin:2rem auto; 
+}
+.main-txt{
+	width: 48.5rem;
+	margin: 2rem auto 0 auto;
+	padding-bottom: 2rem;
+	font-size: 2.6rem;
+	color: #fff;
+	line-height: 130%;
+}
+.txt-right{
+	margin-left: 1rem;
+}
+.day-one{
+	border-bottom: 0.2rem solid #a6a6a6;
+	padding: 1.5rem 7.6rem;
+}
+.day-two{
+	border-bottom: 0.2rem solid #a6a6a6;
+	padding: 1.5rem 7.6rem;
+}
+.day{
+	font-size: 3rem;
+	color: #515151;
+}
+.time{
+	font-size: 2rem;
+	color: #c7c7c7;
+	float: right;
+}
+.content-txt{
+	margin: 1rem 0;
+	font-size: 2.6rem;
+	color: #a6a6a6;
+}
+.foot{
+	background-color: #99dff0;
+	height: 14rem;
+}
+.button-1{
+	width: 27rem;
+	height: 8.5rem;
+	margin: 2.4rem 0 0 2.4rem;
+	float: left;
+	border-radius: 1rem;
+	font-size: 4rem;
+	color: #fff;
+	background-color: #f66f6f
+}
+.button-2{
+	width: 27rem;
+	height: 8.5rem;
+	margin: 2.4rem 2.4rem 0 0;
+	float: right;
+	border-radius: 1rem;
+	font-size: 4rem;
+	color: #fff;
+	background-color: #fbb435;
+}

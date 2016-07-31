@@ -1,0 +1,62 @@
+*{
+	margin: 0;padding: 0;
+	font-size: 10px;
+}
+.header{
+	background: rgb(95,192,205);
+	position: relative;
+}
+.wrap{
+	width: 37rem;
+	margin: 0 auto;
+	color: white;
+}
+.left{
+	font-size: 6rem;
+	float: right;
+}
+.right{
+	font-size: 6rem;
+}
+.icon1{
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+}
+.top{
+	height: 9rem;
+	margin: 2rem 0;
+	border-bottom: 1px solid gray;
+}
+.top1{
+	box-sizing: border-box;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	width: 33.3%;
+	font-size: 4rem;
+	border-right: 1px solid gray;
+	padding: 1.5rem 0;
+}
+.sanjiao{
+	float: right;
+	width: 3rem;height: 2rem;
+	margin-top: 1rem;
+	margin-right: 1rem;
+}
+.mainbody{
+	font-size: 4rem;
+}
+.mainli{
+	height: 10rem;
+	font-size: 5rem;
+}
+p{
+	font-size: 5rem;
+}
+.footleft{
+	float: left;
+}
+.footcenter{
+	float: left;
+}

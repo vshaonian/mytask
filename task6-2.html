@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="task6-2.css">
+	<title>task6-2</title>
+</head>
+<body>
+	<div class="wrap">
+		<div class="head">
+			<img class="head-left" src="task6/head.png">
+			<span>投票</span>
+			<img class="head-right" src="task6/x.png">
+		</div>
+		<div class="index-head">
+			<span class="title">发言讨论结束，大家请投票</span>
+				 <audio src="task6/财富自由.mp3" controls="controls" preload id="music" hidden>
+            </audio>
+            <button id="a" onclick="a();">
+                <div class="circle">
+                    <div class="triangle-left"></div>
+                </div>
+            </button>
+            <script>
+                function a() {
+                    var audio = document.getElementById('music');
+                    if (audio.paused) {
+                        audio.play();//audio.play();// 播放
+                    }
+                    else {
+                        audio.pause();// 暂停
+                    }
+                }
+            </script>
+            <div class="play"></div>
+		</div>
+		<div class="index-main">
+			<div class="down"></div>
+			<div class="inf">点击得票数最多人的头像</div>
+			<div class="index-main-wrap">
+				<div class="block-1">
+					<div class="block-wrap">
+						<div class="cha">水民</div>
+						<div class="num">1号</div>
+					</div>
+					<ul>
+						<li>
+							<i class="icon-1"></i>
+						</li>
+						<li>
+							<i class="icon-2"></i>
+						</li>
+						<li>
+							<i class="icon-3"></i>
+						</li>
+						<li>
+							<i class="icon-4"></i>
+						</li>
+					</ul>
+				</div>
+				<div class="block-2">
+					<div class="block-wrap">
+						<div class="cha">水民</div>
+						<div class="num">2号</div>
+					</div>
+				</div>
+				<div class="block-3">
+					<div class="block-wrap">
+						<div class="cha">警察</div>
+						<div class="num">3号</div>
+					</div>
+				</div>
+				<div class="block-1">
+					<div class="block-wrap">
+						<div class="cha">法官</div>
+						<div class="num">4号</div>
+					</div>
+				</div>
+				<div class="block-2">
+					<div class="block-wrap">
+						<div class="cha">狙击手</div>
+						<div class="num">5号</div>
+					</div>
+				</div>
+				<div class="block-3">
+					<div class="block-wrap">
+						<div class="cha">医生</div>
+						<div class="num">6号</div>
+					</div>
+				</div>
+				<div class="block-1">
+					<div class="block-wrap">
+						<div class="cha">杀手</div>
+						<div class="num">7号</div>
+					</div>
+				</div>
+				<div class="block-2">
+					<div class="block-wrap">
+						<div class="cha">水民</div>
+						<div class="num">8号</div>
+					</div>
+				</div>
+				<div class="block-3">
+					<div class="block-wrap">
+						<div class="cha">水民</div>
+						<div class="num">9号</div>
+					</div>
+				</div>
+				<div class="block-1">
+					<div class="block-wrap">
+						<div class="cha">杀手</div>
+						<div class="num">10号</div>
+					</div>
+				</div>
+				<div class="block-2">
+					<div class="block-wrap">
+						<div class="cha">水民</div>
+						<div class="num">11号</div>
+					</div>
+				</div>
+				<div class="block-3">
+					<div class="block-wrap">
+						<div class="cha">水民</div>	
+						<div class="num">12号</	div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			<a href="task6-3.html">
+				<button class="foot-button">投死</button>
+			</a>
+		</div>
+	</div>
+</body>
+</html>

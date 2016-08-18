@@ -1,0 +1,88 @@
+body{
+	background-color: #fafafa;
+	list-style-type: none;
+}
+.public-head span{
+	line-height: 3.9rem;
+	color: #29b078;
+}
+.public-head div{
+	display: inline-block;
+	margin: 0.7rem 0 0.8rem 0;
+	float: right;
+}
+.navbar{
+	margin: 0;
+	border:none;
+	color: #fff;
+	background-color: #29b078;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	font-size: 2rem;
+	color: #fff;
+	background-color: #29b078;
+}
+.navbar-default .navbar-nav>li>a{
+	font-size:1.6rem; 
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	font-size: 2rem;
+  	color: #fff;
+}
+@media screen and (min-width:768px){
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus{
+		border-bottom: 4px solid #fff;
+		font-size: 1.6rem!important;
+	}
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus{
+		font-size: 1.6rem!important;
+		border-bottom: 4px solid #fff;
+	} 
+	.navbar-default .navbar-nav>li>a{
+		height: 10rem;
+		width: 10rem;
+		padding: 0;
+		line-height: 10rem;
+		text-align: center;
+	}
+}
+.public-foot{
+	border-top: 1px solid #
+	color: #fff;
+	background-color: #26a26f;
+}
+.public-foot a{
+	text-decoration: none;
+	color: #fff;
+}
+.tree{
+	margin-top:3.8rem;
+	font-size: 1.6rem;
+}
+.about{
+	margin-top: 6.8rem;
+	margin-bottom: 3.4rem;
+}
+.web{
+	margin-top: 2.7rem;
+}
+.public-foot .col-md-2 img{
+	margin-top: 0!important;
+}
+.beian{
+	box-sizing: content-box;
+	font-size: 1.2rem
+	height: 3rem;
+	line-height: 3rem;
+	border-top: 1px solid #32c086;
+}
+.beian p{
+	margin-bottom: 0!important;
+}

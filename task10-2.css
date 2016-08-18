@@ -1,0 +1,79 @@
+.banner img{
+	max-width: 100%;
+	height: auto;
+}
+.jump{
+	height: 9rem;
+	font-size: 1.6rem;
+	line-height: 9rem;
+	color: #29b078
+}
+.jump a{
+	color: #000;
+	text-decoration: none;
+}
+.left{
+	border:1px solid #ededed;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.left h3{
+	padding-bottom: 20px;
+	margin-bottom: 4rem;
+	border-bottom: 1px solid #e6e6e6;
+}
+.left li{
+	width: 8rem;
+	margin: 0 auto 3.7rem;
+	list-style-type: none;
+	list-style-image: url(task7/list-style-image-2.jpg);
+}
+.left a{
+	text-decoration: none;
+	color: #29b078;
+}
+.tudou{
+	list-style-image: url(task7/list-style-image-1.jpg)!important;
+}
+.left a:hover{
+	color: #ff7425;
+}
+.right{
+	margin-bottom: 23rem;
+	padding: 2.7rem 0 18.7rem 0;
+	background-color: #fff;
+	border:1px solid #ededed;
+	border-radius: 5px;
+	font-size: 0;
+}
+.right-top,.right-bottom{
+	padding: 0 6rem;
+}
+.right p{
+	margin-top: 4rem;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 200%;
+	color: #999;
+	text-indent: 2em;
+}
+.right-top{
+	border-bottom: 1px solid #e6e6e6;
+}
+.tudou-icon{
+	display: inline-block;
+	height: 11rem;
+	width: 20%;
+	background-image: url(task7/tudou-icon.png);
+	background-size: cover;
+}
+.right span{
+  display: inline-block;
+  width: 80%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-indent: 2em;
+  line-height: 200%;
+  font-size: 14px;
+  color: #999;
+}

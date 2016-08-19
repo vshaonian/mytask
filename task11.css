@@ -1,0 +1,187 @@
+p{
+	margin-bottom: 0;
+}
+.jump{
+	height: 9rem;
+	font-size: 1.6rem;
+	line-height: 9rem;
+	color: #29b078
+}
+.jump a{
+	color: #000;
+	text-decoration: none;
+}
+.two-border{
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #edf1f2; 
+	border-top: 1px solid #d0d6d9;
+}
+.two-border p{
+	margin-left: -15px;
+}
+.two-border p,.two-border li{
+	margin-top: 2rem;
+}
+.col-md-11 li{
+	display: inline-block;
+	margin-right: 3rem;
+}
+.col-md-11 li a{
+	padding: 0.3rem;
+	color: #000;
+	text-decoration: none;
+}
+.col-md-11 li a:hover {
+	color: #fff;
+	background-color: #29b078;
+}
+.col-md-11 li .active{
+	color: #fff;
+	background-color: #29b078;
+}
+.title{
+	margin: 0;
+	height: 8rem;
+	line-height: 8rem;
+	border-bottom: 1px solid #d0d6d9;
+}
+.wrap{
+	width: 100%;
+}
+.job{
+	margin-top: 4.6rem;
+	border:1px solid #f6f6f6;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.one{
+	padding: 2rem 1rem;
+	border-bottom: 1px solid #edf1f2;
+	font-size: 0;
+}
+.job-icon{
+	display: inline-block;
+	width: 40%;
+}
+.job-icon img{
+	vertical-align: bottom;
+	width: 100%;
+}
+.job-name{
+	display: inline-block;
+	width: 60%;
+	padding-left: 0.8rem;
+	word-break: break-all;
+}
+.job-name p{
+	font-size: 1.4rem!important;
+}
+.job-name p:first-child{
+	margin: 1.4rem auto;
+	font-size: 1.6rem!important;
+	font-weight: 600;
+}
+.two,.three,.four,.five{
+	color: #a9a9a9;
+}
+.two,.two-top{
+	font-size: 0;
+	border-bottom: 1px solid #edf1f2;
+}
+.two-top-left,.two-top-right,.two-bottom-left,.two-bottom-right{
+	display: inline-block;
+	width: 50%;
+	padding: 1.2rem 0 1.2rem 1.1rem;
+	font-size: 1.2rem!important;
+}
+.two-top-left,.two-bottom-left{
+	border-right: 1px solid #edf1f2;
+}
+.two-bottom-right span:last-child{
+	margin-right: 0!important;
+}
+.two span{
+	margin-right: 1rem;
+}
+.red{
+	color: #f01400;
+	margin-right: 0!important
+}
+.three{
+	font-size: 0;
+}
+.three-left,.three-right{
+	display: inline-block;
+	font-size: 1.2rem;
+}
+.three-left{
+	width: 40%;
+	vertical-align: top;
+}
+.three-left p{
+	line-height: 10.4rem;
+	border-bottom: 1px solid #edf1f2;
+	border-right: 1px solid #edf1f2;
+}
+.three-right{
+	width: 60%;
+}
+.three-right p{
+	height: 3.5rem;
+	padding-left: 1rem;
+	border-bottom: 1px solid #edf1f2;
+	line-height: 3.5rem;
+}
+.money{
+	padding-right: 1rem;
+	float: right;
+}
+.four{
+	height: 3.8rem;
+	padding-left: 1rem;
+	line-height: 3.8rem;
+	color: #000;
+	border-bottom: 1px solid #edf1f2;
+}
+.five{
+	height: 4rem;
+	line-height: 4rem;
+	padding-left: 1rem;
+	font-size: 1.2rem;
+}
+.element{
+	opacity: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 7rem 4rem 0 4rem;
+	height: 44rem;
+	text-indent: 2em;
+	font-size: 1.6rem;
+	color: #fff;
+	background-color: #3d3d3d;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: rotateY(-180deg);
+}
+@media screen and (min-width: 991px){
+	.element{
+		margin-top: 4.5rem!important;
+	}
+}
+.element p:first-child{
+	height: 5.7rem;
+	line-height: 5.7rem;
+	text-align: center;
+	text-indent: 0;
+}
+.element:hover{
+	opacity: 0.9;
+	transform: rotateY(0deg);
+	transition: transform 1s;
+}
+.mainbody{
+	padding-bottom: 23rem;
+}

@@ -295,6 +295,11 @@
 .enterprise-icon{
 	float: left;
 }
+.enterprise-icon img:hover{
+	position: relative;
+	z-index: 2;
+	box-shadow: 0 0 0,-5px 0 5px #eee,0 0 0,5px 0 5px #eee;
+}
 .foot{
 	width: 1920px;
 	height: 134px;

@@ -38,6 +38,9 @@
 .left a:hover{
 	color: #ff7425;
 }
+.left li:hover{
+	list-style-image: url(task7/list-style-image-1.jpg)
+}
 .right{
 	margin-bottom: 23rem;
 	padding: 2.7rem 0 18.7rem 0;

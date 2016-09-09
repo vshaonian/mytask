@@ -46,6 +46,9 @@
 .index-left-down li{
 	margin-top: 36px;
 }
+.index-left-down li:hover .circle{
+	background-color: #f9a372;
+}
 .index-left a{
 	text-decoration: none;
 	color: #333;

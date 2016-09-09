@@ -72,6 +72,11 @@
 	width: 100%;
 	height: 100%;
 }
+.enterprise img:hover{
+	position: relative;
+	z-index: 2;
+	box-shadow: 0 0 0,-5px 0 5px #eee,0 0 0,5px 0 5px #eee;
+}
 @media screen and (max-width: 991px){
 	.enterprise img{
 		height: 50%;
